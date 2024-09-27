@@ -1,0 +1,21 @@
+C:\yjtr235\_RunTime\Debug\FNDirectTest.exe.config
+C:\yjtr235\_RunTime\Debug\FNDirectTest.exe
+C:\yjtr235\_RunTime\Debug\FNDirectTest.pdb
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.csproj.AssemblyReference.cache
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.csproj.SuggestedBindingRedirects.cache
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\Interop.FNDirectLib.dll
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.csproj.ResolveComReference.cache
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.Form1.resources
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.Properties.Resources.resources
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.csproj.GenerateResource.cache
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.csproj.CoreCompileInputs.cache
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.exe
+C:\yjtr235\FNDirect_Visual_CS\FNDirect_Visual_CS\obj\x86\Debug\FNDirectTest.pdb
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.csproj.AssemblyReference.cache
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.csproj.ResolveComReference.cache
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.Form1.resources
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.Properties.Resources.resources
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.csproj.GenerateResource.cache
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.csproj.CoreCompileInputs.cache
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.exe
+D:\AI TR Dev\FNDirect_Visual_CS 원본\obj\x86\Debug\FNDirectTest.pdb
