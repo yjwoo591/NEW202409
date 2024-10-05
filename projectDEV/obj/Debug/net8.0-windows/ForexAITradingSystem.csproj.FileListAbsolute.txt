@@ -1,0 +1,179 @@
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.exe
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.dll.config
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.deps.json
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.runtimeconfig.json
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.pdb
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+D:\AI TR Dev\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.AssemblyReference.cache
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.MainForm.resources
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.ApiConfigForm.resources
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.DatabaseManagerForm.resources
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.ERDVisualizerForm.resources
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.MarketDataForm.resources
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.OrderForm.resources
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.GenerateResource.cache
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.AssemblyInfoInputs.cache
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.AssemblyInfo.cs
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.CoreCompileInputs.cache
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAIT.700D070F.Up2Date
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.dll
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\refint\ForexAITradingSystem.dll
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.pdb
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.genruntimeconfig.cache
+D:\AI TR Dev\ForexAITradingSystem\obj\Debug\net8.0-windows\ref\ForexAITradingSystem.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.exe
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.dll.config
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.deps.json
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.runtimeconfig.json
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\ForexAITradingSystem.pdb
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\github\ForexAITradingSystem\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.AssemblyReference.cache
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.MainForm.resources
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.ApiConfigForm.resources
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.DatabaseManagerForm.resources
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.ERDVisualizerForm.resources
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.MarketDataForm.resources
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.PopupForms.OrderForm.resources
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.GenerateResource.cache
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.AssemblyInfoInputs.cache
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.AssemblyInfo.cs
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.CoreCompileInputs.cache
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAIT.700D070F.Up2Date
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.dll
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\refint\ForexAITradingSystem.dll
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.pdb
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ForexAITradingSystem.genruntimeconfig.cache
+C:\github\ForexAITradingSystem\obj\Debug\net8.0-windows\ref\ForexAITradingSystem.dll
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.AssemblyReference.cache
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingPC1Main.Forms.DatabaseManagementForm.resources
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingPC1Main.Forms.ERDMermaidVisualizer.resources
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingPC1Main.Forms.MainForm.resources
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingPC1Main.Forms.ServerConnectionTestForm.resources
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.GenerateResource.cache
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.AssemblyInfoInputs.cache
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.AssemblyInfo.cs
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.csproj.CoreCompileInputs.cache
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ForexAITradingSystem.exe
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ForexAITradingSystem.dll.config
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ForexAITradingSystem.deps.json
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ForexAITradingSystem.runtimeconfig.json
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ForexAITradingSystem.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ForexAITradingSystem.pdb
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ClosedXML.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ClosedXML.Parser.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\com.theartofdev.edmodo.cropper.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\CsvHelper.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.Framework.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ExcelNumberFormat.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\HtmlRenderer.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\HtmlRenderer.PdfSharp.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\itextsharp.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\PdfSharp.Charting.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\PdfSharp.Quality.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\PdfSharp.Snippets.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\PdfSharp.System.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\PdfSharp.WPFonts.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\PdfSharp.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\RazorPDF.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\RBush.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\de\PdfSharp.Charting.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\de\PdfSharp.resources.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AI TR Dev\projectDEV\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAIT.700D070F.Up2Date
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.dll
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\refint\ForexAITradingSystem.dll
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.pdb
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ForexAITradingSystem.genruntimeconfig.cache
+D:\AI TR Dev\projectDEV\obj\Debug\net8.0-windows\ref\ForexAITradingSystem.dll
