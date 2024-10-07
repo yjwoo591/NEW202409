@@ -1,28 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="MainForm.cs">
+    <Compile Update="Forms\DatabaseManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PopupForms\ConfigForm.cs">
+    <Compile Update="Forms\ERDMermaidVisualizer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PopupForms\DatabaseManagerForm.cs">
+    <Compile Update="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PopupForms\ERDVisualizerForm.cs">
+    <Compile Update="Forms\ServerConnectionTestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PopupForms\OrderForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="PopupForms\ApiConfigForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="PopupForms\MarketDataForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="PopupForms\TableManagerForm.cs">
+    <Compile Update="Forms\TableDesignForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
