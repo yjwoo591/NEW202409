@@ -3,64 +3,136 @@
   "WorkspaceRootPath": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\core\\erdvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:core\\erdvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\core\\erdparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:core\\erdparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\core\\erdreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:core\\erdreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\core\\erdprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:core\\erdprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.datamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.datamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.erd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.erd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\datatransferform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\datatransferform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\datatransferform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\datatransferform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\aidatatransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\aidatatransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.datatransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.datatransfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\models\\tableinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:models\\tableinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\utils\\securitymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:utils\\securitymodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.erd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.erd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\utils\\configmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:utils\\configmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\utils\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:utils\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\datasharingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\datasharingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\erdmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\erdmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\erdviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\erdviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\erdviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\erdviewerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.databasestructureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.databasestructureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseconnectionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\mainform.logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\mainform.logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|d:\\ai tr dev\\pc1mainaitradingsystem\\pc1mainaitradingsystem\\database\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:database\\cachemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5F271ACD-1704-40A2-88D8-7988B2284C8B}|PC1MAINAITradingSystem.csproj|solutionrelative:form\\databaseselectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,76 +142,397 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs",
-              "RelativeToolTip": "Form\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ERDValidator.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDValidator.cs",
+              "RelativeDocumentMoniker": "Core\\ERDValidator.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDValidator.cs",
+              "RelativeToolTip": "Core\\ERDValidator.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAqwM8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:30:33.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.Database.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Database.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.Database.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Database.cs",
-              "RelativeToolTip": "Form\\MainForm.Database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:50:46.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainForm.UI.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.UI.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.UI.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.UI.cs",
-              "RelativeToolTip": "Form\\MainForm.UI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:35:00.332Z",
+              "WhenOpened": "2024-10-22T02:07:45.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DatabaseSelectForm.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseSelectForm.cs",
-              "RelativeDocumentMoniker": "Form\\DatabaseSelectForm.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseSelectForm.cs",
-              "RelativeToolTip": "Form\\DatabaseSelectForm.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwFoAAAABAAAAAAAAAA==",
+              "Title": "ERDProcessor.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDProcessor.cs",
+              "RelativeDocumentMoniker": "Core\\ERDProcessor.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDProcessor.cs",
+              "RelativeToolTip": "Core\\ERDProcessor.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAqwK4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:29:23.422Z",
+              "WhenOpened": "2024-10-22T02:04:51.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "MainForm.DataMigration.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DataMigration.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.DataMigration.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DataMigration.cs",
+              "RelativeToolTip": "Form\\MainForm.DataMigration.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwG4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T02:02:53.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.Designer.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Designer.cs",
+              "RelativeToolTip": "Form\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwEsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:58:44.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ERDParser.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDParser.cs",
+              "RelativeDocumentMoniker": "Core\\ERDParser.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDParser.cs",
+              "RelativeToolTip": "Core\\ERDParser.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAqwK8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:55:09.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ERDReader.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDReader.cs",
+              "RelativeDocumentMoniker": "Core\\ERDReader.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Core\\ERDReader.cs",
+              "RelativeToolTip": "Core\\ERDReader.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwFwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:53:08.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataTransferForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DataTransferForm.cs",
+              "RelativeDocumentMoniker": "Form\\DataTransferForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DataTransferForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form\\DataTransferForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:25:31.31Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DatabaseManager.cs",
               "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\DatabaseManager.cs",
               "RelativeDocumentMoniker": "Database\\DatabaseManager.cs",
               "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\DatabaseManager.cs",
               "RelativeToolTip": "Database\\DatabaseManager.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAAAqwF0BAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T08:49:20.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T00:03:44.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs",
+              "RelativeToolTip": "Form\\MainForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwFAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:30:33.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.ERD.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.ERD.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.ERD.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.ERD.cs",
+              "RelativeToolTip": "Form\\MainForm.ERD.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwGsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:55:40.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MainForm.Database.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Database.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.Database.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Database.cs",
+              "RelativeToolTip": "Form\\MainForm.Database.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAA8wNMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:50:46.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DataTransferForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DataTransferForm.cs",
+              "RelativeDocumentMoniker": "Form\\DataTransferForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DataTransferForm.cs",
+              "RelativeToolTip": "Form\\DataTransferForm.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAqwJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:12:03.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AIDataTransfer.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\AIDataTransfer.cs",
+              "RelativeDocumentMoniker": "Database\\AIDataTransfer.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\AIDataTransfer.cs",
+              "RelativeToolTip": "Database\\AIDataTransfer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:15:25.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TableInfo.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Models\\TableInfo.cs",
+              "RelativeDocumentMoniker": "Models\\TableInfo.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Models\\TableInfo.cs",
+              "RelativeToolTip": "Models\\TableInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:09:47.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form\\MainForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:27:01.515Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SecurityModule.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Utils\\SecurityModule.cs",
+              "RelativeDocumentMoniker": "Utils\\SecurityModule.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Utils\\SecurityModule.cs",
+              "RelativeToolTip": "Utils\\SecurityModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:08:24.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ConfigManager.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Utils\\ConfigManager.cs",
+              "RelativeDocumentMoniker": "Utils\\ConfigManager.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Utils\\ConfigManager.cs",
+              "RelativeToolTip": "Utils\\ConfigManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:07:13.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataSharingManager.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\DataSharingManager.cs",
+              "RelativeDocumentMoniker": "Database\\DataSharingManager.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\DataSharingManager.cs",
+              "RelativeToolTip": "Database\\DataSharingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:06:05.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ERDViewerForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\ERDViewerForm.cs",
+              "RelativeDocumentMoniker": "Form\\ERDViewerForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\ERDViewerForm.cs",
+              "RelativeToolTip": "Form\\ERDViewerForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:04:10.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainForm.UI.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.UI.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.UI.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.UI.cs",
+              "RelativeToolTip": "Form\\MainForm.UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:35:00.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainForm.DataTransfer.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DataTransfer.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.DataTransfer.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DataTransfer.cs",
+              "RelativeToolTip": "Form\\MainForm.DataTransfer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:01:01.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ERDViewerForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\ERDViewerForm.cs",
+              "RelativeDocumentMoniker": "Form\\ERDViewerForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\ERDViewerForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form\\ERDViewerForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:04:07.102Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainForm.DatabaseStructureForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DatabaseStructureForm.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.DatabaseStructureForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DatabaseStructureForm.cs",
+              "RelativeToolTip": "Form\\MainForm.DatabaseStructureForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:47:52.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Utils\\Logger.cs",
+              "RelativeDocumentMoniker": "Utils\\Logger.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Utils\\Logger.cs",
+              "RelativeToolTip": "Utils\\Logger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T00:32:15.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ERDManager.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\ERDManager.cs",
+              "RelativeDocumentMoniker": "Database\\ERDManager.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\ERDManager.cs",
+              "RelativeToolTip": "Database\\ERDManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:43:45.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DatabaseConnectionForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs",
+              "RelativeDocumentMoniker": "Form\\DatabaseConnectionForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form\\DatabaseConnectionForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:39:35.795Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DatabaseConnectionForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs",
+              "RelativeDocumentMoniker": "Form\\DatabaseConnectionForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs",
+              "RelativeToolTip": "Form\\DatabaseConnectionForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T23:39:47.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainForm.Menu.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Menu.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.Menu.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Menu.cs",
+              "RelativeToolTip": "Form\\MainForm.Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:53:30.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainForm.Logging.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Logging.cs",
+              "RelativeDocumentMoniker": "Form\\MainForm.Logging.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Logging.cs",
+              "RelativeToolTip": "Form\\MainForm.Logging.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T08:27:35.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "CacheManager.cs",
               "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\CacheManager.cs",
               "RelativeDocumentMoniker": "Database\\CacheManager.cs",
@@ -152,58 +545,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatabaseConnectionForm.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs",
-              "RelativeDocumentMoniker": "Form\\DatabaseConnectionForm.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs",
-              "RelativeToolTip": "Form\\DatabaseConnectionForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwB0AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "DatabaseSelectForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseSelectForm.cs",
+              "RelativeDocumentMoniker": "Form\\DatabaseSelectForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseSelectForm.cs",
+              "RelativeToolTip": "Form\\DatabaseSelectForm.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:39:47.23Z",
+              "WhenOpened": "2024-10-17T08:29:23.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.Menu.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Menu.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.Menu.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Menu.cs",
-              "RelativeToolTip": "Form\\MainForm.Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:53:30.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.Logging.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Logging.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.Logging.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.Logging.cs*",
-              "RelativeToolTip": "Form\\MainForm.Logging.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:27:35.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form\\MainForm.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T07:27:01.515Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 32,
               "Title": "DatabaseSelectForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseSelectForm.cs",
               "RelativeDocumentMoniker": "Form\\DatabaseSelectForm.cs",
@@ -211,57 +566,6 @@
               "RelativeToolTip": "Form\\DatabaseSelectForm.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T23:39:34.298Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainForm.ERD.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.ERD.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.ERD.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.ERD.cs",
-              "RelativeToolTip": "Form\\MainForm.ERD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T12:55:40.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ERDManager.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\ERDManager.cs",
-              "RelativeDocumentMoniker": "Database\\ERDManager.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Database\\ERDManager.cs",
-              "RelativeToolTip": "Database\\ERDManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:43:45.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MainForm.DatabaseStructureForm.cs",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DatabaseStructureForm.cs",
-              "RelativeDocumentMoniker": "Form\\MainForm.DatabaseStructureForm.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\MainForm.DatabaseStructureForm.cs",
-              "RelativeToolTip": "Form\\MainForm.DatabaseStructureForm.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwGYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T08:47:52.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DatabaseConnectionForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs",
-              "RelativeDocumentMoniker": "Form\\DatabaseConnectionForm.cs",
-              "ToolTip": "D:\\AI TR Dev\\PC1MAINAITradingSystem\\PC1MAINAITradingSystem\\Form\\DatabaseConnectionForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form\\DatabaseConnectionForm.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T23:39:35.795Z",
               "EditorCaption": " [\uB514\uC790\uC778]"
             },
             {

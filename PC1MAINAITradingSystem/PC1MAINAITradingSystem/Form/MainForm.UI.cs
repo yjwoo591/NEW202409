@@ -1,56 +1,47 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace PC1MAINAITradingSystem.Forms
 {
     public partial class MainForm
     {
+        private Panel mainPanel;
+        private TextBox logTextBox;
+
         partial void InitializeUI()
         {
-            CreateStatusBar();
-            CreateSplitContainer();
-            CreateLogWindow();
+            // Initialize mainPanel
+            mainPanel = new Panel
+            {
+                Dock = DockStyle.Fill
+            };
+            this.Controls.Add(mainPanel);
 
-            this.FormClosing += MainForm_FormClosing;
-        }
-
-        private void CreateStatusBar()
-        {
+            // Initialize statusStrip and statusLabel
             statusStrip = new StatusStrip();
             statusLabel = new ToolStripStatusLabel();
-            statusLabel.Text = "Ready";
             statusStrip.Items.Add(statusLabel);
             this.Controls.Add(statusStrip);
-        }
 
-        private void CreateSplitContainer()
-        {
-            splitContainer = new SplitContainer();
-            splitContainer.Dock = DockStyle.Fill;
-            splitContainer.Orientation = Orientation.Vertical;
-            splitContainer.SplitterDistance = this.Width - 300;
+            // Initialize splitContainer
+            splitContainer = new SplitContainer
+            {
+                Dock = DockStyle.Fill,
+                Orientation = Orientation.Vertical
+            };
+            mainPanel.Controls.Add(splitContainer);
 
-            mainPanel = new Panel();
-            mainPanel.Dock = DockStyle.Fill;
-
-            splitContainer.Panel1.Controls.Add(mainPanel);
-            this.Controls.Add(splitContainer);
-        }
-
-        private void CreateLogWindow()
-        {
-            logTextBox = new TextBox();
-            logTextBox.Multiline = true;
-            logTextBox.ReadOnly = true;
-            logTextBox.Dock = DockStyle.Fill;
-            logTextBox.Font = new Font("Consolas", 9F);
-            logTextBox.BackColor = Color.Black;
-            logTextBox.ForeColor = Color.Lime;
-
+            // Initialize logTextBox
+            logTextBox = new TextBox
+            {
+                Multiline = true,
+                ScrollBars = ScrollBars.Vertical,
+                Dock = DockStyle.Fill,
+                ReadOnly = true
+            };
             splitContainer.Panel2.Controls.Add(logTextBox);
-        }
 
-        // MainForm_FormClosing 이벤트 핸들러는 이미 MainForm.cs에 정의되어 있으므로 여기서는 제거합니다.
+            // You can add more UI components here as needed
+        }
     }
 }

@@ -1,102 +1,108 @@
-﻿using System;
+﻿```csharp
+using System;
 using System.Windows.Forms;
-using System.IO;
+using PC1MAINAITradingSystem.Core.ERDProcessor;
 
 namespace PC1MAINAITradingSystem.Forms
 {
     public partial class MainForm
     {
-        private void OnGenerateDatabaseFromERD(object sender, EventArgs e)
+        private void InitializeERDComponents()
         {
-            string erdContent = LoadERDContent();
-            if (string.IsNullOrEmpty(erdContent))
-            {
-                MessageBox.Show("No ERD content loaded.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+            // ERD 메뉴 아이템 초기화
+            var loadERDMenuItem = new ToolStripMenuItem("Load ERD", null, OnLoadERD);
+            var validateERDMenuItem = new ToolStripMenuItem("Validate ERD", null, OnValidateERD);
+            var saveERDMenuItem = new ToolStripMenuItem("Save ERD", null, OnSaveERD);
 
-            var tables = _erdManager.ParseERD(erdContent);
-
-            using (var structureForm = new DatabaseStructureForm(tables))
+            erdMenu.DropDownItems.AddRange(new ToolStripItem[]
             {
-                if (structureForm.ShowDialog() == DialogResult.OK)
+                loadERDMenuItem,
+                validateERDMenuItem,
+                saveERDMenuItem
+            });
+        }
+
+        private void OnLoadERD(object sender, EventArgs e)
+        {
+            using (var openFileDialog = new OpenFileDialog())
+            {
+                openFileDialog.Filter = "ERD Files|*.erd|All Files|*.*";
+                openFileDialog.Title = "Open ERD File";
+
+                if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    var updatedTables = structureForm.GetUpdatedTables();
-                    var updatedERD = _erdManager.ConvertTablesToERD(updatedTables);
-                    var scripts = _erdManager.GenerateDatabaseScripts(updatedERD);
-
-                    if (MessageBox.Show("Do you want to apply these database scripts?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                    try
                     {
-                        _erdManager.ApplyDatabaseScripts(scripts, _dbManager);
-                        MessageBox.Show("Database generated successfully from ERD.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        var erdContent = _erdService.LoadERD(openFileDialog.FileName);
+                        if (_erdService.ValidateERD(erdContent))
+                        {
+                            UpdateERDDisplay(erdContent);
+                            _logger.Log($"ERD loaded successfully: {openFileDialog.FileName}");
+                        }
                     }
-                    AddLog("Database structure reviewed and updated");
+                    catch (Exception ex)
+                    {
+                        _logger.LogError($"Error loading ERD: {ex.Message}");
+                        MessageBox.Show($"Failed to load ERD: {ex.Message}", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
 
-        private void OnReadERD(object sender, EventArgs e)
+        private void OnValidateERD(object sender, EventArgs e)
         {
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
+            try
             {
-                openFileDialog.Filter = "ERD Files (*.mermaid)|*.mermaid|All Files (*.*)|*.*";
-                openFileDialog.InitialDirectory = Path.Combine(Application.StartupPath, "Database");
-
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
+                var validationResult = _erdService.ValidateCurrentERD();
+                if (validationResult.IsValid)
                 {
-                    string erdContent = _erdManager.ReadERD(openFileDialog.FileName);
-                    AddLog($"ERD file read: {openFileDialog.FileName}");
+                    MessageBox.Show("ERD validation successful", "Validation",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+                else
+                {
+                    MessageBox.Show($"ERD validation failed:\n{validationResult.ErrorMessage}",
+                        "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error validating ERD: {ex.Message}");
+                MessageBox.Show($"Error validating ERD: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void OnSaveERD(object sender, EventArgs e)
         {
-            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            using (var saveFileDialog = new SaveFileDialog())
             {
-                saveFileDialog.Filter = "ERD Files (*.mermaid)|*.mermaid|All Files (*.*)|*.*";
-                saveFileDialog.InitialDirectory = Path.Combine(Application.StartupPath, "Database");
-                saveFileDialog.FileName = "PC1ERD.mermaid";
+                saveFileDialog.Filter = "ERD Files|*.erd|All Files|*.*";
+                saveFileDialog.Title = "Save ERD File";
 
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    string erdContent = "... ERD content ..."; // 실제 ERD 내용으로 대체해야 함
-                    _erdManager.SaveERD(erdContent, saveFileDialog.FileName);
-                    AddLog($"ERD file saved: {saveFileDialog.FileName}");
+                    try
+                    {
+                        _erdService.SaveERD(saveFileDialog.FileName);
+                        _logger.Log($"ERD saved successfully: {saveFileDialog.FileName}");
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError($"Error saving ERD: {ex.Message}");
+                        MessageBox.Show($"Failed to save ERD: {ex.Message}", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
 
-        private void OnBackupERD(object sender, EventArgs e)
+        private void UpdateERDDisplay(string erdContent)
         {
-            using (OpenFileDialog openFileDialog = new OpenFileDialog())
-            {
-                openFileDialog.Filter = "ERD Files (*.mermaid)|*.mermaid|All Files (*.*)|*.*";
-                openFileDialog.InitialDirectory = Path.Combine(Application.StartupPath, "Database");
-
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    _erdManager.BackupERD(openFileDialog.FileName);
-                    AddLog($"ERD file backed up: {openFileDialog.FileName}");
-                }
-            }
-        }
-
-        private string LoadERDContent()
-        {
-            string erdPath = Path.Combine(
-                Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location),
-                "..", "..", "Database", "PC1ERD.mermaid");
-
-            if (File.Exists(erdPath))
-            {
-                return File.ReadAllText(erdPath);
-            }
-            else
-            {
-                MessageBox.Show("ERD file not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return string.Empty;
-            }
+            // ERD 표시 업데이트 로직
+            erdViewer.Refresh();
         }
     }
 }
+```

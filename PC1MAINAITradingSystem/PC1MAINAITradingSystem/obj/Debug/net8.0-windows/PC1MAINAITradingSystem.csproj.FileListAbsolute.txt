@@ -1,5 +1,9 @@
 D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.csproj.AssemblyReference.cache
+D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.Forms.DatabaseSelectForm.resources
+D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.Forms.ERDViewerForm.resources
+D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.csproj.GenerateResource.cache
 D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.GeneratedMSBuildEditorConfig.editorconfig
 D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.AssemblyInfoInputs.cache
 D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.AssemblyInfo.cs
 D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.csproj.CoreCompileInputs.cache
+D:\AI TR Dev\PC1MAINAITradingSystem\PC1MAINAITradingSystem\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.Forms.DataTransferForm.resources

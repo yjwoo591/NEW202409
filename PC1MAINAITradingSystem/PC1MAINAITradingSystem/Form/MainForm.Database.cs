@@ -1,7 +1,7 @@
-﻿using System;
+﻿```csharp
+using System;
 using System.Windows.Forms;
-using System.Collections.Generic;
-using PC1MAINAITradingSystem.Database;
+using PC1MAINAITradingSystem.Core.DatabaseManager;
 
 namespace PC1MAINAITradingSystem.Forms
 {
@@ -9,56 +9,204 @@ namespace PC1MAINAITradingSystem.Forms
     {
         private void InitializeDatabaseComponents()
         {
-            // 데이터베이스 관련 UI 컴포넌트 초기화
+            var createDBMenuItem = new ToolStripMenuItem("Create Database", null, OnCreateDatabase);
+            var modifyDBMenuItem = new ToolStripMenuItem("Modify Database", null, OnModifyDatabase);
+            var viewDBMenuItem = new ToolStripMenuItem("View Database Structure", null, OnViewDatabaseStructure);
+            var backupDBMenuItem = new ToolStripMenuItem("Backup Database", null, OnBackupDatabase);
+
+            databaseMenu.DropDownItems.AddRange(new ToolStripItem[]
+            {
+                createDBMenuItem,
+                modifyDBMenuItem,
+                viewDBMenuItem,
+                backupDBMenuItem
+            });
+
+            InitializeDatabaseExplorer();
         }
 
-        private void OnDatabaseConnect(object sender, EventArgs e)
+        private void InitializeDatabaseExplorer()
         {
-            using (var connectForm = new DatabaseConnectionForm(_dbManager))
+            databaseExplorer.BeforeExpand += DatabaseExplorer_BeforeExpand;
+            databaseExplorer.NodeMouseDoubleClick += DatabaseExplorer_NodeMouseDoubleClick;
+            RefreshDatabaseExplorer();
+        }
+
+        private void OnCreateDatabase(object sender, EventArgs e)
+        {
+            try
             {
-                if (connectForm.ShowDialog() == DialogResult.OK)
+                if (!_erdService.HasValidERD())
                 {
-                    UpdateStatus("Connected to database server");
-                    AddLog("Database server connected");
+                    MessageBox.Show("Please load and validate an ERD first.", "Notice",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
                 }
+
+                var erdStructure = _erdService.GetCurrentERDStructure();
+                var result = _databaseService.CreateDatabase(erdStructure);
+
+                if (result.Success)
+                {
+                    _logger.Log("Database created successfully");
+                    MessageBox.Show("Database created successfully.", "Success",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    RefreshDatabaseExplorer();
+                }
+                else
+                {
+                    throw new Exception(result.ErrorMessage);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error creating database: {ex.Message}");
+                MessageBox.Show($"Failed to create database: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void OnDatabaseDisconnect(object sender, EventArgs e)
+        private void OnModifyDatabase(object sender, EventArgs e)
         {
-            _dbManager.Disconnect();
-            UpdateStatus("Disconnected from database server");
-            AddLog("Database server disconnected");
-        }
-
-        private void OnSelectDatabase(object sender, EventArgs e)
-        {
-            if (_dbManager.IsConnected)
+            try
             {
-                List<string> databases = _dbManager.GetDatabases();
-                using (var selectForm = new DatabaseSelectForm(databases))
+                if (!_erdService.HasValidERD())
                 {
-                    if (selectForm.ShowDialog() == DialogResult.OK)
+                    MessageBox.Show("Please load and validate an ERD first.", "Notice",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                using (var modifyForm = new DatabaseModificationForm(_databaseService))
+                {
+                    if (modifyForm.ShowDialog() == DialogResult.OK)
                     {
-                        string selectedDatabase = selectForm.SelectedDatabase;
-                        if (_dbManager.SelectDatabase(selectedDatabase))
-                        {
-                            UpdateStatus($"Selected database: {selectedDatabase}");
-                            AddLog($"Database selected: {selectedDatabase}");
-                        }
-                        else
-                        {
-                            MessageBox.Show($"Failed to select database: {selectedDatabase}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
+                        _logger.Log("Database modification completed");
+                        RefreshDatabaseExplorer();
                     }
                 }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Please connect to a database server first.", "Not Connected", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                _logger.LogError($"Error modifying database: {ex.Message}");
+                MessageBox.Show($"Failed to modify database: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        // 추가적인 데이터베이스 관련 메서드들...
+        private void OnViewDatabaseStructure(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var structureForm = new DatabaseStructureForm(_databaseService))
+                {
+                    structureForm.ShowDialog();
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error viewing database structure: {ex.Message}");
+                MessageBox.Show($"Failed to view database structure: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void OnBackupDatabase(object sender, EventArgs e)
+        {
+            try
+            {
+                var result = _databaseService.BackupDatabase();
+                if (result.Success)
+                {
+                    _logger.Log($"Database backup created at: {result.BackupPath}");
+                    MessageBox.Show("Database backup created successfully.", "Success",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    throw new Exception(result.ErrorMessage);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error backing up database: {ex.Message}");
+                MessageBox.Show($"Failed to backup database: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void RefreshDatabaseExplorer()
+        {
+            try
+            {
+                databaseExplorer.Nodes.Clear();
+                var databases = _databaseService.GetAllDatabases();
+
+                foreach (var db in databases)
+                {
+                    var dbNode = new TreeNode(db.Name)
+                    {
+                        Tag = db,
+                        ImageIndex = 0
+                    };
+                    dbNode.Nodes.Add(new TreeNode("Loading..."));
+                    databaseExplorer.Nodes.Add(dbNode);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error refreshing database explorer: {ex.Message}");
+            }
+        }
+
+        private void DatabaseExplorer_BeforeExpand(object sender, TreeViewCancelEventArgs e)
+        {
+            try
+            {
+                var node = e.Node;
+                if (node.FirstNode?.Text == "Loading...")
+                {
+                    node.Nodes.Clear();
+                    var database = (DatabaseInfo)node.Tag;
+                    var tables = _databaseService.GetDatabaseTables(database.Name);
+
+                    foreach (var table in tables)
+                    {
+                        var tableNode = new TreeNode(table.Name)
+                        {
+                            Tag = table,
+                            ImageIndex = 1
+                        };
+                        node.Nodes.Add(tableNode);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error expanding database node: {ex.Message}");
+            }
+        }
+
+        private void DatabaseExplorer_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            try
+            {
+                var node = e.Node;
+                if (node.Tag is TableInfo tableInfo)
+                {
+                    using (var tableViewer = new TableContentViewer(_databaseService, tableInfo))
+                    {
+                        tableViewer.ShowDialog();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error opening table viewer: {ex.Message}");
+                MessageBox.Show($"Failed to open table viewer: {ex.Message}", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
+```

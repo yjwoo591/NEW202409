@@ -1,87 +1,81 @@
-﻿using System;
+﻿```csharp
+using System;
 using System.Windows.Forms;
-using PC1MAINAITradingSystem.Database;
+using PC1MAINAITradingSystem.Core.ERDProcessor;
+using PC1MAINAITradingSystem.Core.DatabaseManager;
+using PC1MAINAITradingSystem.Services;
 using PC1MAINAITradingSystem.Utils;
+using PC1MAINAITradingSystem.Interfaces;
+using PC1MAINAITradingSystem.Database;
 
 namespace PC1MAINAITradingSystem.Forms
 {
     public partial class MainForm : Form
     {
-        protected DatabaseManager _dbManager;
-        protected ERDManager _erdManager;
-        protected LogManager _logManager;
+        // Services
+        private readonly IERDService _erdService;
+        private readonly IDatabaseService _databaseService;
+        private readonly IMigrationService _migrationService;
+        private readonly IHistoricalDataService _historicalDataService;
+        private readonly ILogger _logger;
 
-        // UI components (declared here but initialized in MainForm.UI.cs)
-        protected MenuStrip mainMenuStrip;
-        protected StatusStrip statusStrip;
-        protected ToolStripStatusLabel statusLabel;
-        protected SplitContainer splitContainer;
-        protected Panel mainPanel;
-        protected TextBox logTextBox;
+        // Core Processors
+        private readonly IERDProcessor _erdProcessor;
+        private readonly IDatabaseManager _databaseManager;
 
         public MainForm()
         {
-            _dbManager = new DatabaseManager();
-            _erdManager = new ERDManager();
-            _logManager = new LogManager();
             InitializeComponent();
+            InitializeServices();
+            InitializeEventHandlers();
+
+            _logger.Log("Application started successfully");
         }
 
-        private void InitializeComponent()
+        private void InitializeServices()
         {
-            this.SuspendLayout();
+            _logger = new Logger();
+            _erdService = new ERDService(_logger);
+            _databaseService = new DatabaseService(_logger);
+            _migrationService = new MigrationService(_logger);
+            _historicalDataService = new HistoricalDataService(_logger);
 
-            // Form settings
-            this.Text = "PC1 MAIN AI Trading System";
-            this.Size = new System.Drawing.Size(1024, 768);
-            this.StartPosition = FormStartPosition.CenterScreen;
+            _erdProcessor = new ERDProcessor(_logger);
+            _databaseManager = new DatabaseManager(_logger);
 
-            InitializeMenu();
-            InitializeUI();
-            InitializeDatabaseComponents();
-            InitializeERDComponents();
-
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            _logger.Log("Services initialized");
         }
 
-        // Method declarations for partial methods implemented in other files
-        partial void InitializeMenu();
-        partial void InitializeUI();
-        partial void InitializeDatabaseComponents();
-        partial void InitializeERDComponents();
-
-        // Common methods used across partial classes
-        protected void AddLog(string message)
+        private void InitializeEventHandlers()
         {
-            if (logTextBox.InvokeRequired)
-            {
-                logTextBox.Invoke(new Action<string>(AddLog), message);
-            }
-            else
-            {
-                logTextBox.AppendText($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}{Environment.NewLine}");
-                logTextBox.ScrollToCaret();
-            }
+            this.FormClosing += MainForm_FormClosing;
+            // 기타 이벤트 핸들러 초기화
         }
 
-        protected void UpdateStatus(string message)
-        {
-            if (statusLabel.Owner.InvokeRequired)
-            {
-                statusLabel.Owner.Invoke(new Action<string>(UpdateStatus), message);
-            }
-            else
-            {
-                statusLabel.Text = message;
-            }
-        }
-
-        // Event handler for form closing
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            _dbManager.Disconnect();
-            AddLog("Application closing");
+            try
+            {
+                _databaseService.CloseAllConnections();
+                _logger.Log("Application shutting down properly");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error during shutdown: {ex.Message}");
+                MessageBox.Show("Error occurred during shutdown", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                _logger?.Dispose();
+                // 다른 리소스 해제
+            }
+            base.Dispose(disposing);
         }
     }
 }
+```

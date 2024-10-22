@@ -7,6 +7,9 @@
     <Compile Update="Form\DatabaseSelectForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Form\DataTransferForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form\ERDViewerForm.cs">
       <SubType>Form</SubType>
     </Compile>

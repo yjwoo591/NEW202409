@@ -5,35 +5,41 @@ namespace PC1MAINAITradingSystem.Forms
 {
     public partial class MainForm
     {
-        private void CreateMainMenu()
+        partial void InitializeMenu()
         {
-            mainMenuStrip = new MenuStrip();
+            MenuStrip mainMenu = new MenuStrip();
+            this.MainMenuStrip = mainMenu;
 
-            // File menu
+            // File Menu
             ToolStripMenuItem fileMenu = new ToolStripMenuItem("File");
-            fileMenu.DropDownItems.Add("Exit", null, (sender, e) => Application.Exit());
+            fileMenu.DropDownItems.Add("Exit", null, OnExit);
+            mainMenu.Items.Add(fileMenu);
 
-            // Database menu
+            // Database Menu
             ToolStripMenuItem databaseMenu = new ToolStripMenuItem("Database");
             databaseMenu.DropDownItems.Add("Connect", null, OnDatabaseConnect);
             databaseMenu.DropDownItems.Add("Disconnect", null, OnDatabaseDisconnect);
-            databaseMenu.DropDownItems.Add("View Database and Tables", null, OnSelectDatabase);
+            databaseMenu.DropDownItems.Add("View Structure", null, OnViewDatabaseStructure);
+            mainMenu.Items.Add(databaseMenu);
 
-            // ERD menu
+            // ERD Menu
             ToolStripMenuItem erdMenu = new ToolStripMenuItem("ERD");
-            erdMenu.DropDownItems.Add("Generate Database from ERD", null, OnGenerateDatabaseFromERD);
-            erdMenu.DropDownItems.Add("Read ERD", null, OnReadERD);
+            erdMenu.DropDownItems.Add("Load ERD", null, OnLoadERD);
             erdMenu.DropDownItems.Add("Save ERD", null, OnSaveERD);
-            erdMenu.DropDownItems.Add("Backup ERD", null, OnBackupERD);
+            mainMenu.Items.Add(erdMenu);
 
-            mainMenuStrip.Items.Add(fileMenu);
-            mainMenuStrip.Items.Add(databaseMenu);
-            mainMenuStrip.Items.Add(erdMenu);
+            // Data Transfer Menu
+            ToolStripMenuItem dataTransferMenu = new ToolStripMenuItem("Data Transfer");
+            dataTransferMenu.DropDownItems.Add("Transfer to AI", null, OnTransferToAI);
+            dataTransferMenu.DropDownItems.Add("Transfer to API", null, OnTransferToAPI);
+            mainMenu.Items.Add(dataTransferMenu);
 
-            this.MainMenuStrip = mainMenuStrip;
-            this.Controls.Add(mainMenuStrip);
+            this.Controls.Add(mainMenu);
         }
 
-        // 메뉴 이벤트 핸들러 메서드들...
+        private void OnExit(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -10,6 +10,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+		<PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" Version="171.30.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
@@ -23,5 +24,11 @@
 
 	<ItemGroup>
 		<EmbeddedResource Remove="**\*.resx" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Form\DatabaseSelectForm.resx" />
+	  <EmbeddedResource Include="Form\DataTransferForm.resx" />
+	  <EmbeddedResource Include="Form\ERDViewerForm.resx" />
 	</ItemGroup>
 </Project>
