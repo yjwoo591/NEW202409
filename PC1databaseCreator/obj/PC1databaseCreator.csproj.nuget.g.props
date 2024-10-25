@@ -13,4 +13,16 @@
     <SourceRoot Include="C:\Users\Administrator\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)verify\22.8.0\buildTransitive\Verify.props" Condition="Exists('$(NuGetPackageRoot)verify\22.8.0\buildTransitive\Verify.props')" />
+    <Import Project="$(NuGetPackageRoot)verify.mstest\22.8.0\buildTransitive\Verify.MSTest.props" Condition="Exists('$(NuGetPackageRoot)verify.mstest\22.8.0\buildTransitive\Verify.MSTest.props')" />
+    <Import Project="$(NuGetPackageRoot)mstest.testadapter\3.1.1\build\net6.0\MSTest.TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter\3.1.1\build\net6.0\MSTest.TestAdapter.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.testplatform.testhost\17.8.0\build\netcoreapp3.1\Microsoft.TestPlatform.TestHost.props" Condition="Exists('$(NuGetPackageRoot)microsoft.testplatform.testhost\17.8.0\build\netcoreapp3.1\Microsoft.TestPlatform.TestHost.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\17.8.0\build\netstandard2.0\Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\17.8.0\build\netstandard2.0\Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\17.8.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent\3.0.2\buildTransitive\Microsoft.Diagnostics.Tracing.TraceEvent.props" Condition="Exists('$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent\3.0.2\buildTransitive\Microsoft.Diagnostics.Tracing.TraceEvent.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Administrator\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
 </Project>

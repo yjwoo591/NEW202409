@@ -1,182 +1,160 @@
 ﻿using System;
 using System.Threading.Tasks;
+using System.IO;
+using System.Text;
 using System.Collections.Generic;
-using PC1MAINAITradingSystem.Models.ERD;
-using System.ComponentModel.DataAnnotations;
+using System.Text.RegularExpressions;
 
-namespace PC1MAINAITradingSystem.Core.ERD.Parser
+namespace PC1databaseCreator.Core.ERD
 {
+    /// <summary>
+    /// Mermaid ERD 파일을 파싱하는 클래스
+    /// </summary>
     public class ERDParser
     {
-        private readonly ILogger _logger;
-        private readonly Dictionary<string, IERDParser> _parsers;
+        #region Constants
+        private const string ENTITY_PATTERN = @"(\w+)\s*{([^}]*)}";
+        private const string COLUMN_PATTERN = @"\s*(\w+)\s+([\w\(\)]+)\s*(\w+)?";
+        private const string RELATIONSHIP_PATTERN = @"(\w+)\s*([|\-o<>}{\]|\[])+\s*(\w+)";
+        #endregion
 
-        public ERDParser(ILogger logger)
+        #region Fields
+        private readonly Encoding _encoding;
+        private readonly Dictionary<string, ERDEntity> _entityMap;
+        #endregion
+
+        #region Constructor
+        /// <summary>
+        /// ERDParser 클래스의 새 인스턴스를 초기화합니다.
+        /// </summary>
+        /// <param name="encoding">파일 인코딩 (기본값: UTF8)</param>
+        public ERDParser(Encoding encoding = null)
         {
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _parsers = InitializeParsers();
+            _encoding = encoding ?? Encoding.UTF8;
+            _entityMap = new Dictionary<string, ERDEntity>();
         }
+        #endregion
 
-        public async Task<(ERDModel Model, List<string> Errors)> ParseERD(string content, string format = "mermaid")
+        #region Public Methods
+        /// <summary>
+        /// ERD 파일을 파싱하여 엔티티 목록을 반환합니다.
+        /// </summary>
+        /// <param name="content">ERD 파일 내용</param>
+        /// <returns>파싱된 엔티티 목록</returns>
+        /// <exception cref="InvalidERDFormatException">ERD 형식이 잘못된 경우</exception>
+        public List<ERDEntity> Parse(string content)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(content))
-                {
-                    return (null, new List<string> { "ERD content is empty" });
-                }
-
-                if (!_parsers.TryGetValue(format.ToLower(), out var parser))
-                {
-                    return (null, new List<string> { $"Unsupported ERD format: {format}" });
-                }
-
-                // 기본 구문 검사
-                var syntaxErrors = await parser.ValidateSyntax(content);
-                if (syntaxErrors.Count > 0)
-                {
-                    return (null, syntaxErrors);
-                }
-
-                // ERD 파싱 수행
-                var model = await parser.Parse(content);
-
-                await _logger.LogInfo($"ERD parsing completed successfully using {format} parser");
-                return (model, new List<string>());
+                _entityMap.Clear();
+                ParseEntities(content);
+                ParseRelationships(content);
+                return new List<ERDEntity>(_entityMap.Values);
             }
             catch (Exception ex)
             {
-                await _logger.LogError($"ERD parsing failed: {ex.Message}", ex);
-                return (null, new List<string> { ex.Message });
+                throw new InvalidERDFormatException("ERD 파싱 중 오류가 발생했습니다.", ex);
+            }
+        }
+        #endregion
+
+        #region Private Methods
+        private void ParseEntities(string content)
+        {
+            var matches = Regex.Matches(content, ENTITY_PATTERN, RegexOptions.Multiline);
+            foreach (Match match in matches)
+            {
+                string entityName = match.Groups[1].Value.Trim();
+                string columnsContent = match.Groups[2].Value;
+
+                var entity = new ERDEntity { Name = entityName };
+                ParseColumns(columnsContent, entity);
+                _entityMap[entityName] = entity;
             }
         }
 
-        private Dictionary<string, IERDParser> InitializeParsers()
+        private void ParseColumns(string columnsContent, ERDEntity entity)
         {
-            return new Dictionary<string, IERDParser>(StringComparer.OrdinalIgnoreCase)
+            var matches = Regex.Matches(columnsContent, COLUMN_PATTERN, RegexOptions.Multiline);
+            foreach (Match match in matches)
             {
-                { "mermaid", new MermaidParser(_logger) },
-                // 다른 파서들을 여기에 추가
+                var column = new ERDColumn
+                {
+                    Name = match.Groups[1].Value.Trim(),
+                    DataType = match.Groups[2].Value.Trim(),
+                    Constraints = match.Groups[3].Value.Trim()
+                };
+                entity.Columns.Add(column);
+            }
+        }
+
+        private void ParseRelationships(string content)
+        {
+            var matches = Regex.Matches(content, RELATIONSHIP_PATTERN, RegexOptions.Multiline);
+            foreach (Match match in matches)
+            {
+                string entity1 = match.Groups[1].Value.Trim();
+                string entity2 = match.Groups[3].Value.Trim();
+                string relationship = match.Groups[2].Value.Trim();
+
+                if (_entityMap.ContainsKey(entity1) && _entityMap.ContainsKey(entity2))
+                {
+                    _entityMap[entity1].Relationships ??= new List<ERDRelationship>();
+                    _entityMap[entity1].Relationships.Add(new ERDRelationship
+                    {
+                        FromEntity = entity1,
+                        ToEntity = entity2,
+                        Type = ParseRelationshipType(relationship)
+                    });
+                }
+            }
+        }
+
+        private RelationshipType ParseRelationshipType(string relationship)
+        {
+            // 관계 타입 문자열을 RelationshipType 열거형으로 변환
+            return relationship switch
+            {
+                "||--o{" => RelationshipType.OneToMany,
+                "||--|{" => RelationshipType.OneToMany_Required,
+                "||--||" => RelationshipType.OneToOne,
+                "}|--|{" => RelationshipType.ManyToMany,
+                _ => RelationshipType.Unknown
             };
         }
-
-        public async Task<List<string>> GetSupportedFormats()
-        {
-            return new List<string>(_parsers.Keys);
-        }
-
-        public async Task<bool> IsFormatSupported(string format)
-        {
-            return _parsers.ContainsKey(format?.ToLower() ?? string.Empty);
-        }
+        #endregion
     }
 
-    public interface IERDParser
+    /// <summary>
+    /// ERD 관계 타입을 정의하는 열거형
+    /// </summary>
+    public enum RelationshipType
     {
-        Task<List<string>> ValidateSyntax(string content);
-        Task<ERDModel> Parse(string content);
-        Task<string> Generate(ERDModel model);
+        Unknown,
+        OneToOne,
+        OneToMany,
+        OneToMany_Required,
+        ManyToMany
     }
 
-    public abstract class BaseERDParser : IERDParser
+    /// <summary>
+    /// ERD 엔티티 간의 관계를 정의하는 클래스
+    /// </summary>
+    public class ERDRelationship
     {
-        protected readonly ILogger Logger;
+        /// <summary>
+        /// 관계의 시작 엔티티
+        /// </summary>
+        public string FromEntity { get; set; }
 
-        protected BaseERDParser(ILogger logger)
-        {
-            Logger = logger ?? throw new ArgumentNullException(nameof(logger));
-        }
+        /// <summary>
+        /// 관계의 대상 엔티티
+        /// </summary>
+        public string ToEntity { get; set; }
 
-        public abstract Task<List<string>> ValidateSyntax(string content);
-        public abstract Task<ERDModel> Parse(string content);
-        public abstract Task<string> Generate(ERDModel model);
-
-        protected async Task<bool> ValidateBasicSyntax(string content, List<string> errors)
-        {
-            if (string.IsNullOrWhiteSpace(content))
-            {
-                errors.Add("Content cannot be empty");
-                return false;
-            }
-
-            return true;
-        }
-
-        protected DataType ParseDataType(string typeString)
-        {
-            return typeString.ToLower() switch
-            {
-                "int" => DataType.Int,
-                "bigint" => DataType.Bigint,
-                "varchar" => DataType.Varchar,
-                "nvarchar" => DataType.Nvarchar,
-                "char" => DataType.Char,
-                "nchar" => DataType.Nchar,
-                "decimal" => DataType.Decimal,
-                "numeric" => DataType.Numeric,
-                "datetime" => DataType.Datetime,
-                "bool" or "boolean" => DataType.Bool,
-                "binary" => DataType.Binary,
-                "varbinary" => DataType.Varbinary,
-                _ => throw new ArgumentException($"Unsupported data type: {typeString}")
-            };
-        }
-
-        protected (int? Length, int? Precision, int? Scale) ParseTypeParameters(string typeString)
-        {
-            // Example formats: varchar(50), decimal(18,2)
-            try
-            {
-                var startIndex = typeString.IndexOf('(');
-                if (startIndex == -1)
-                {
-                    return (null, null, null);
-                }
-
-                var endIndex = typeString.IndexOf(')');
-                if (endIndex == -1)
-                {
-                    throw new FormatException($"Invalid type parameter format: {typeString}");
-                }
-
-                var parameters = typeString.Substring(startIndex + 1, endIndex - startIndex - 1)
-                    .Split(',', StringSplitOptions.RemoveEmptyEntries);
-
-                switch (parameters.Length)
-                {
-                    case 1:
-                        return (int.Parse(parameters[0]), null, null);
-                    case 2:
-                        return (null, int.Parse(parameters[0]), int.Parse(parameters[1]));
-                    default:
-                        throw new FormatException($"Invalid number of type parameters: {typeString}");
-                }
-            }
-            catch (Exception ex)
-            {
-                throw new FormatException($"Failed to parse type parameters: {typeString}", ex);
-            }
-        }
-
-        protected string GetBaseType(string fullType)
-        {
-            var index = fullType.IndexOf('(');
-            return index == -1 ? fullType : fullType.Substring(0, index);
-        }
-
-        protected bool IsValidIdentifier(string name)
-        {
-            if (string.IsNullOrEmpty(name)) return false;
-
-            if (!char.IsLetter(name[0]) && name[0] != '_')
-                return false;
-
-            return name.All(c => char.IsLetterOrDigit(c) || c == '_');
-        }
-
-        protected string NormalizeIdentifier(string identifier)
-        {
-            return identifier?.Trim().Replace(" ", "_") ?? string.Empty;
-        }
+        /// <summary>
+        /// 관계 타입
+        /// </summary>
+        public RelationshipType Type { get; set; }
     }
 }

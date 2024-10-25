@@ -1,3 +1,4 @@
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.csproj.AssemblyReference.cache
 D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.Form1.resources
 D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1MAINAITradingSystem.Forms.MainForm.resources
 D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.csproj.GenerateResource.cache
