@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
-using PC1databaseCreator.Core.Storage.Interfaces;
 using PC1databaseCreator.Core.Storage.Models;
 using PC1databaseCreator.Core.Storage.Constants;
+using PC1databaseCreator.Core.Storage.Infrastructure.Interfaces;
 
 namespace PC1databaseCreator.Core.Storage.Services
 {
@@ -89,7 +89,7 @@ namespace PC1databaseCreator.Core.Storage.Services
 
         public async Task<StorageResult> RecordMetricsAsync(
             StorageType storageType,
-            StorageMetrics metrics,
+            StorageEnums metrics,
             CancellationToken cancellationToken = default)
         {
             try
@@ -213,7 +213,7 @@ namespace PC1databaseCreator.Core.Storage.Services
 
         private class MetricSnapshot
         {
-            public StorageMetrics Metrics { get; init; }
+            public StorageEnums Metrics { get; init; }
             public DateTime Timestamp { get; init; }
         }
 
@@ -224,7 +224,7 @@ namespace PC1databaseCreator.Core.Storage.Services
             private long _totalOperations;
             private double _maxResponseTime;
 
-            public void RecordMetrics(StorageMetrics metrics)
+            public void RecordMetrics(StorageEnums metrics)
             {
                 _responseTimes.Enqueue(metrics.AverageResponseTimeMs);
                 _operationTimes.Enqueue(DateTime.UtcNow);
@@ -266,7 +266,7 @@ namespace PC1databaseCreator.Core.Storage.Services
     public record StorageMetricsSummary
     {
         public StorageType StorageType { get; init; }
-        public StorageMetrics CurrentMetrics { get; init; }
+        public StorageEnums CurrentMetrics { get; init; }
         public double AverageResponseTime { get; init; }
         public double PeakUsage { get; init; }
         public TrendAnalysis TrendAnalysis { get; init; }

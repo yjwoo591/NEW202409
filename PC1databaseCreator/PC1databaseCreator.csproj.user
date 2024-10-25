@@ -4,47 +4,5 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\CompareForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\Controls\ERDColumnControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Forms\Controls\ERDRelationControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="Forms\Controls\ERDTableControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Forms\ERD\ERDRelationControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Update="Forms\ERD\ERDTableControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Forms\ERD\MainForm.ERD.Base.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\ERD\MainForm.ERD.FileIO.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\ERD\MainForm.ERD.Validation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\ERD\MainForm.ERD.Visual.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\MainForm.Database.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\MainForm.ERD.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\Main\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\ValidationForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

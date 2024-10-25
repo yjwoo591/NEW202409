@@ -135,14 +135,14 @@ namespace PC1databaseCreator.Core.Storage.Infrastructure
             }
         }
 
-        public StorageResult<StorageMetrics> GetMetrics()
+        public StorageResult<StorageEnums> GetMetrics()
         {
             try
             {
                 var drive = _fileSystem.DriveInfo.GetDrives()
                     .First(d => _rootPath.StartsWith(d.Name, StringComparison.OrdinalIgnoreCase));
 
-                var metrics = new StorageMetrics
+                var metrics = new StorageEnums
                 {
                     TotalSpace = drive.TotalSize,
                     AvailableSpace = drive.AvailableFreeSpace,
@@ -151,12 +151,12 @@ namespace PC1databaseCreator.Core.Storage.Infrastructure
                     Status = GetStorageStatus(drive)
                 };
 
-                return StorageResult<StorageMetrics>.Success(metrics);
+                return StorageResult<StorageEnums>.Success(metrics);
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error getting storage metrics");
-                return StorageResult<StorageMetrics>.Failure(
+                return StorageResult<StorageEnums>.Failure(
                     StorageErrorType.InvalidOperation,
                     "Error getting storage metrics",
                     ex);

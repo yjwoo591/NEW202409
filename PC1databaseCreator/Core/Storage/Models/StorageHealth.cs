@@ -11,7 +11,7 @@ namespace PC1databaseCreator.Core.Storage.Models
         public StorageStatus Status { get; init; }
         public List<string> Messages { get; init; } = new();
         public DateTime CheckTime { get; init; } = DateTime.UtcNow;
-        public StorageMetrics Metrics { get; init; }
+        public StorageEnums Metrics { get; init; }
         public bool IsOperational => Status != StorageStatus.Critical && Status != StorageStatus.Error;
     }
 }

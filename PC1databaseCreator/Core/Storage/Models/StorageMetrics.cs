@@ -4,7 +4,7 @@ using PC1databaseCreator.Core.Storage.Enums;
 
 namespace PC1databaseCreator.Core.Storage.Models
 {
-    public record StorageMetrics
+    public record StorageEnums
     {
         public StorageType StorageType { get; init; }
         public long TotalSpace { get; init; }
