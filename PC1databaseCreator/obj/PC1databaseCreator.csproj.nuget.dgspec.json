@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[4.11.1, )"
             },
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "AutoFixture": {
               "target": "Package",
               "version": "[4.18.1, )"
@@ -61,6 +65,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Ben.Demystifier": {
+              "target": "Package",
+              "version": "[0.4.1, )"
             },
             "BenchmarkDotNet": {
               "target": "Package",
@@ -154,6 +162,10 @@
               "target": "Package",
               "version": "[3.3.0, )"
             },
+            "Microsoft.IO.RecyclableMemoryStream": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
@@ -173,6 +185,10 @@
             "Polly": {
               "target": "Package",
               "version": "[8.2.0, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.8.0, )"
             },
             "Scrutor": {
               "target": "Package",
@@ -205,6 +221,10 @@
             "System.IO.FileSystem.AccessControl": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "System.Threading.Channels": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Verify.MSTest": {
               "target": "Package",

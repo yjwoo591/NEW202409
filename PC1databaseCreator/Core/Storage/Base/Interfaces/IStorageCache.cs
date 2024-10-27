@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using PC1databaseCreator.Core.Storage.Models;
 using PC1databaseCreator.Core.Storage.Cache;
 
-namespace PC1databaseCreator.Core.Storage.Interfaces
+namespace PC1databaseCreator.Core.Storage.Base.Interfaces
 {
     public interface IStorageCache
     {

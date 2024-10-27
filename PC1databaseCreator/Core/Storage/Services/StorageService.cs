@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using ErrorOr;
 using Polly;
-using PC1databaseCreator.Core.Storage.Interfaces;
+using PC1databaseCreator.Core.Storage.Base.Interfaces;
 
 namespace PC1databaseCreator.Core.Storage.Services
 {

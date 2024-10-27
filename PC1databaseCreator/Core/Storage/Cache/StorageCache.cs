@@ -7,7 +7,7 @@ using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
 using PC1databaseCreator.Core.Storage.Models;
 using PC1databaseCreator.Core.Storage.Constants;
-using PC1databaseCreator.Core.Storage.Interfaces;
+using PC1databaseCreator.Core.Storage.Base.Interfaces;
 
 namespace PC1databaseCreator.Core.Storage.Cache
 {

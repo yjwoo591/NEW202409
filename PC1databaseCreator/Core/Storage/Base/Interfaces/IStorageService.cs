@@ -1,6 +1,6 @@
 ﻿using ErrorOr;
 
-namespace PC1databaseCreator.Core.Storage.Interfaces
+namespace PC1databaseCreator.Core.Storage.Base.Interfaces
 {
     /// <summary>
     /// 스토리지 서비스 인터페이스
