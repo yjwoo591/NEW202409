@@ -1,0 +1,647 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AI TR Dev\\PC1databaseCreator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\erd\\erdrelationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\erd\\erdrelationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\erd\\erdtablecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\erd\\erdtablecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\erd\\mainform.erd.fileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\erd\\mainform.erd.fileio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\erd\\mainform.erd.validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\erd\\mainform.erd.validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\erd\\mainform.erd.visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\erd\\mainform.erd.visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\erd\\mainform.erd.base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\erd\\mainform.erd.base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\compareform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\compareform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\validationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\validationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\mainform.erd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\mainform.erd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\mainform.database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\mainform.database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\main\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\main\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\main\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\main\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\main\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\main\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\utils\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:utils\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\utils\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:utils\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\erdcorebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\erdcorebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\comparator\\schemacomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\comparator\\schemacomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\comparator\\erdcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\comparator\\erdcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\database\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\database\\databaseschemamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\database\\databaseschemamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\database\\databaseschemamanager.extraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\database\\databaseschemamanager.extraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\database\\databaseschemamanager.changes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\database\\databaseschemamanager.changes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\security\\securitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\security\\securitymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\security\\securitymanager.authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\security\\securitymanager.authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\security\\securitymanager.permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\security\\securitymanager.permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\base\\erdcorebase.validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\base\\erdcorebase.validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\base\\erdcorebase.operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\base\\erdcorebase.operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\parser\\erdparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\parser\\erdparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\parser\\erdparser.mermaid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\parser\\erdparser.mermaid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\parser\\erdparser.validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\parser\\erdparser.validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\generator\\erdgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\generator\\erdgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\generator\\erdgenerator.sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\generator\\erdgenerator.sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\core\\erd\\generator\\erdgenerator.visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:core\\erd\\generator\\erdgenerator.visual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\controls\\erdtablecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\controls\\erdtablecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\controls\\erdcolumncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\controls\\erdcolumncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\forms\\controls\\erdrelationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:forms\\controls\\erdrelationcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|d:\\ai tr dev\\pc1databasecreator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1316B2C3-6DE2-49B0-829D-28B82A1C0560}|PC1databaseCreator.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ERDRelationControl.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\ERDRelationControl.cs",
+              "RelativeDocumentMoniker": "Forms\\ERD\\ERDRelationControl.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\ERDRelationControl.cs*",
+              "RelativeToolTip": "Forms\\ERD\\ERDRelationControl.cs*",
+              "ViewState": "AgIAALIBAAAAAAAAAAAQwL4BAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:24:18.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ERDTableControl.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\ERDTableControl.cs",
+              "RelativeDocumentMoniker": "Forms\\ERD\\ERDTableControl.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\ERDTableControl.cs*",
+              "RelativeToolTip": "Forms\\ERD\\ERDTableControl.cs*",
+              "ViewState": "AgIAADABAAAAAAAAAAAYwHMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:23:27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.ERD.FileIO.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.FileIO.cs",
+              "RelativeDocumentMoniker": "Forms\\ERD\\MainForm.ERD.FileIO.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.FileIO.cs*",
+              "RelativeToolTip": "Forms\\ERD\\MainForm.ERD.FileIO.cs*",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAgwO4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:19:55.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.ERD.Validation.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.Validation.cs",
+              "RelativeDocumentMoniker": "Forms\\ERD\\MainForm.ERD.Validation.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.Validation.cs*",
+              "RelativeToolTip": "Forms\\ERD\\MainForm.ERD.Validation.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAYwLkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:18:56.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.ERD.Visual.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.Visual.cs",
+              "RelativeDocumentMoniker": "Forms\\ERD\\MainForm.ERD.Visual.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.Visual.cs*",
+              "RelativeToolTip": "Forms\\ERD\\MainForm.ERD.Visual.cs*",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAYwOcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:17:25.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.ERD.Base.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.Base.cs",
+              "RelativeDocumentMoniker": "Forms\\ERD\\MainForm.ERD.Base.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ERD\\MainForm.ERD.Base.cs*",
+              "RelativeToolTip": "Forms\\ERD\\MainForm.ERD.Base.cs*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:16:20.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompareForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\CompareForm.cs",
+              "RelativeDocumentMoniker": "Forms\\CompareForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\CompareForm.cs*",
+              "RelativeToolTip": "Forms\\CompareForm.cs*",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAYwNwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:14:58.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ValidationForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ValidationForm.cs",
+              "RelativeDocumentMoniker": "Forms\\ValidationForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\ValidationForm.cs*",
+              "RelativeToolTip": "Forms\\ValidationForm.cs*",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAYwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:13:59.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.ERD.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\MainForm.ERD.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.ERD.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\MainForm.ERD.cs*",
+              "RelativeToolTip": "Forms\\MainForm.ERD.cs*",
+              "ViewState": "AgIAALkAAAAAAAAAAAAYwPwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:12:52.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.Database.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\MainForm.Database.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.Database.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\MainForm.Database.cs*",
+              "RelativeToolTip": "Forms\\MainForm.Database.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwKQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:10:05.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Main\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\Main\\MainForm.Designer.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Main\\MainForm.Designer.cs*",
+              "RelativeToolTip": "Forms\\Main\\MainForm.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:07:27.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Main\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Main\\MainForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Main\\MainForm.cs [\uB514\uC790\uC778]*",
+              "RelativeToolTip": "Forms\\Main\\MainForm.cs [\uB514\uC790\uC778]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:05:59.515Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SqlHelper.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Utils\\SqlHelper.cs",
+              "RelativeDocumentMoniker": "Utils\\SqlHelper.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Utils\\SqlHelper.cs*",
+              "RelativeToolTip": "Utils\\SqlHelper.cs*",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAYwMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:04:26.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Utils\\Logger.cs",
+              "RelativeDocumentMoniker": "Utils\\Logger.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Utils\\Logger.cs*",
+              "RelativeToolTip": "Utils\\Logger.cs*",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T09:03:11.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SchemaComparer.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Comparator\\SchemaComparer.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Comparator\\SchemaComparer.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Comparator\\SchemaComparer.cs",
+              "RelativeToolTip": "Core\\ERD\\Comparator\\SchemaComparer.cs",
+              "ViewState": "AgIAAG0BAAAAAAAAAADwv6cBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:57:10.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ERDComparer.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Comparator\\ERDComparer.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Comparator\\ERDComparer.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Comparator\\ERDComparer.cs",
+              "RelativeToolTip": "Core\\ERD\\Comparator\\ERDComparer.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAswHUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:56:10.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Database\\DatabaseManager.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseManager.cs",
+              "RelativeToolTip": "Core\\ERD\\Database\\DatabaseManager.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAuwLMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:55:05.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DatabaseSchemaManager.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseSchemaManager.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Database\\DatabaseSchemaManager.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseSchemaManager.cs",
+              "RelativeToolTip": "Core\\ERD\\Database\\DatabaseSchemaManager.cs",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAtwKcBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:53:15.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Main\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\Main\\MainForm.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Main\\MainForm.cs*",
+              "RelativeToolTip": "Forms\\Main\\MainForm.cs*",
+              "ViewState": "AgIAAP4AAAAAAAAAAAA1wEEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:17:06.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DatabaseSchemaManager.Extraction.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseSchemaManager.Extraction.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Database\\DatabaseSchemaManager.Extraction.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseSchemaManager.Extraction.cs",
+              "RelativeToolTip": "Core\\ERD\\Database\\DatabaseSchemaManager.Extraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:49:44.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DatabaseSchemaManager.Changes.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseSchemaManager.Changes.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Database\\DatabaseSchemaManager.Changes.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Database\\DatabaseSchemaManager.Changes.cs",
+              "RelativeToolTip": "Core\\ERD\\Database\\DatabaseSchemaManager.Changes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:50:46.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SecurityManager.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\Security\\SecurityManager.cs",
+              "RelativeDocumentMoniker": "Core\\Security\\SecurityManager.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\Security\\SecurityManager.cs",
+              "RelativeToolTip": "Core\\Security\\SecurityManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:45:11.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ERDCoreBase.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\ERDCoreBase.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\ERDCoreBase.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\ERDCoreBase.cs",
+              "RelativeToolTip": "Core\\ERD\\ERDCoreBase.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:42:07.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SecurityManager.Authentication.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\Security\\SecurityManager.Authentication.cs",
+              "RelativeDocumentMoniker": "Core\\Security\\SecurityManager.Authentication.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\Security\\SecurityManager.Authentication.cs",
+              "RelativeToolTip": "Core\\Security\\SecurityManager.Authentication.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAmwAEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:44:30.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SecurityManager.Permissions.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\Security\\SecurityManager.Permissions.cs",
+              "RelativeDocumentMoniker": "Core\\Security\\SecurityManager.Permissions.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\Security\\SecurityManager.Permissions.cs",
+              "RelativeToolTip": "Core\\Security\\SecurityManager.Permissions.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAmwAsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:43:37.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ERDCoreBase.Validation.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Base\\ERDCoreBase.Validation.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Base\\ERDCoreBase.Validation.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Base\\ERDCoreBase.Validation.cs",
+              "RelativeToolTip": "Core\\ERD\\Base\\ERDCoreBase.Validation.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAmwHUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:41:01.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ERDCoreBase.Operations.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Base\\ERDCoreBase.Operations.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Base\\ERDCoreBase.Operations.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Base\\ERDCoreBase.Operations.cs",
+              "RelativeToolTip": "Core\\ERD\\Base\\ERDCoreBase.Operations.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAmwDUBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:40:11.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ERDParser.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Parser\\ERDParser.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Parser\\ERDParser.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Parser\\ERDParser.cs",
+              "RelativeToolTip": "Core\\ERD\\Parser\\ERDParser.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwLUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:38:26.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ERDParser.Mermaid.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Parser\\ERDParser.Mermaid.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Parser\\ERDParser.Mermaid.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Parser\\ERDParser.Mermaid.cs",
+              "RelativeToolTip": "Core\\ERD\\Parser\\ERDParser.Mermaid.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAmwHkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:37:42.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ERDParser.Validation.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Parser\\ERDParser.Validation.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Parser\\ERDParser.Validation.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Parser\\ERDParser.Validation.cs",
+              "RelativeToolTip": "Core\\ERD\\Parser\\ERDParser.Validation.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAmwG4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:36:53.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ERDGenerator.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Generator\\ERDGenerator.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Generator\\ERDGenerator.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Generator\\ERDGenerator.cs",
+              "RelativeToolTip": "Core\\ERD\\Generator\\ERDGenerator.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:35:28.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ERDGenerator.SQL.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Generator\\ERDGenerator.SQL.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Generator\\ERDGenerator.SQL.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Generator\\ERDGenerator.SQL.cs",
+              "RelativeToolTip": "Core\\ERD\\Generator\\ERDGenerator.SQL.cs",
+              "ViewState": "AgIAADUBAAAAAAAAAAA3wFYBAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:30:47.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ERDGenerator.Visual.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Generator\\ERDGenerator.Visual.cs",
+              "RelativeDocumentMoniker": "Core\\ERD\\Generator\\ERDGenerator.Visual.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Core\\ERD\\Generator\\ERDGenerator.Visual.cs",
+              "RelativeToolTip": "Core\\ERD\\Generator\\ERDGenerator.Visual.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAmwD8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:29:32.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ERDTableControl.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Controls\\ERDTableControl.cs",
+              "RelativeDocumentMoniker": "Forms\\Controls\\ERDTableControl.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Controls\\ERDTableControl.cs",
+              "RelativeToolTip": "Forms\\Controls\\ERDTableControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:15:02.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ERDColumnControl.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Controls\\ERDColumnControl.cs",
+              "RelativeDocumentMoniker": "Forms\\Controls\\ERDColumnControl.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Controls\\ERDColumnControl.cs",
+              "RelativeToolTip": "Forms\\Controls\\ERDColumnControl.cs",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAqwE4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:14:10.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ERDRelationControl.cs",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Controls\\ERDRelationControl.cs",
+              "RelativeDocumentMoniker": "Forms\\Controls\\ERDRelationControl.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Forms\\Controls\\ERDRelationControl.cs",
+              "RelativeToolTip": "Forms\\Controls\\ERDRelationControl.cs",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAqwJgBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:13:04.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\AI TR Dev\\PC1databaseCreator\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\AI TR Dev\\PC1databaseCreator\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:02:57.258Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
