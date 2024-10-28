@@ -1,0 +1,8 @@
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.csproj.AssemblyReference.cache
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.MainForm.resources
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.csproj.GenerateResource.cache
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\Verify.Attributes.cs
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.GeneratedMSBuildEditorConfig.editorconfig
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.AssemblyInfoInputs.cache
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.AssemblyInfo.cs
+D:\AI TR Dev\PC1databaseCreator\obj\Debug\net8.0-windows\PC1databaseCreator.csproj.CoreCompileInputs.cache
